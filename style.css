@@ -28,6 +28,14 @@ article > img{
     background-color:var(--Cor2);
     border-radius:5px;
 }
+picture > img{
+    width:70%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color:var(--Cor2);
+    border-radius:5px;
+}
 p{
     text-align: justify;
     text-indent:40px;
