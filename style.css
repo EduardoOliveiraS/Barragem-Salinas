@@ -15,6 +15,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+ul li{
+    padding:5px;
+}
 
 article{
     margin: 20px auto;
@@ -48,10 +51,11 @@ p{
     font-size:22px;
 }
 h1{
-    text-indent:40px;
+    text-align: center;
     background-image:linear-gradient(to right,#789247,transparent);
     color:#D1E2ED;
     border-radius:5px;
+
 }
 .referencias>ul>li{
     margin:5px;
@@ -59,12 +63,12 @@ h1{
 footer > p{
     text-align: center;
     color:var(--Cor4);
+    font-size:1em;
 
 }
 footer{
     padding:10px 0px;
     background-color: var(--Cor2);
-    margin: auto;
 }
 footer a{
     color:var(--Cor 1);
