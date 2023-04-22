@@ -13,7 +13,7 @@ body{
 
 article{
     margin: 20px auto;
-    background-color: var(--Cor4);
+    background-color:#8CB8DD;
     padding:10px;
     border-radius:10px;
     max-width:1000px;
@@ -25,7 +25,7 @@ article > img{
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
-    background-color:var(--Cor2);
+    background-color:#839099;
     border-radius:5px;
 }
 picture img{
@@ -44,9 +44,12 @@ p{
 }
 h1{
     text-indent:40px;
-    background-image:linear-gradient(to right,green,var(--Cor4));
-    color:aquamarine;
+    background-image:linear-gradient(to right,#789247,transparent);
+    color:#D1E2ED;
     border-radius:5px;
+}
+.referencias>ul>li{
+    margin:5px;
 }
 footer > p{
     text-align: center;
