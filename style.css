@@ -12,7 +12,7 @@ body{
 }
 
 article{
-    margin: auto;
+    margin: 20px auto;
     background-color: var(--Cor4);
     padding:10px;
     border-radius:10px;
@@ -28,12 +28,10 @@ article > img{
     background-color:var(--Cor2);
     border-radius:5px;
 }
-picture > img{
+picture img{
     width:70%;
     display: block;
     margin: 10px auto;
-    padding: 10px 20px;
-    background-color:var(--Cor2);
     border-radius:5px;
 }
 p{
@@ -47,12 +45,23 @@ p{
 h1{
     text-indent:40px;
     background-image:linear-gradient(to right,green,var(--Cor4));
-    color: var(--Cor2);
+    color:aquamarine;
+    border-radius:5px;
 }
 footer > p{
     text-align: center;
-    color:var(--Cbranco);
+    color:var(--Cor4);
+
 }
 footer{
-    background-color: var(--Cazul-escuro);
+    padding:10px 0px;
+    background-color: var(--Cor2);
+    margin: auto;
+}
+footer a{
+    color:var(--Cor 1);
+    text-decoration:none;
+    background-color: var(--Cor4);
+    padding:3px;
+    border-radius:5px;
 }
